@@ -24,6 +24,9 @@ public class Main {
         printData(tasksData);
         System.out.println("Printing deadlines");
         printDeadlines(tasksData);
+        printDeadlinesUsingStreams(tasksData);
+
+        printDataUsingStreams(tasksData);
     }
 
     private static int countDeadlines(ArrayList<Task> tasksData) {
